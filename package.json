@@ -3,10 +3,23 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Metrics registry with counters, gauges and histograms rendered in Prometheus text exposition format.",
-  "engines": { "node": ">=24" },
-  "scripts": {
-    "test": "node --test"
+  "description": "Metrics registry for counters, gauges and histograms with Prometheus text output, plus a browser demo.",
+  "engines": {
+    "node": ">=24"
   },
-  "license": "MIT"
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/server.ts"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MotherTheresa64/beacon.git"
+  },
+  "homepage": "https://github.com/MotherTheresa64/beacon#readme",
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "zero-dependencies"
+  ]
 }
