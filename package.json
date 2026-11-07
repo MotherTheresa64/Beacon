@@ -1,0 +1,12 @@
+{
+  "name": "@noah/beacon",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Metrics registry with counters, gauges and histograms rendered in Prometheus text exposition format.",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
