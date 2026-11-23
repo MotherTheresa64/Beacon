@@ -1,5 +1,7 @@
 # Beacon
 
+**Live demo:** https://beacon-n70q.onrender.com/ (free hosting; the first load can take about 30 seconds while it wakes)
+
 A metrics registry: counters, gauges and histograms, rendered in the Prometheus text
 exposition format so a `/metrics` endpoint is one function call away.
 
